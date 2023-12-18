@@ -79,6 +79,7 @@ a {
   transition: var(--transition);
 }
 
+
 /* GENERAL HEADING STYLES */
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.1;
@@ -117,7 +118,9 @@ img {
 }
 
 /* GENERAL BUTTON STYLES */
-.btn {
+
+.btn{
+
   display: inline-block;
   width: fit-content;
   display: flex;
@@ -160,6 +163,7 @@ img {
 
 .btn.sm {
   padding: 0.5rem 1.2rem;
+
 }
 
 
@@ -219,3 +223,6 @@ img {
       width: var(--container-width-md);
   }
 }
+
+}
+
