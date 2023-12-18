@@ -1,5 +1,3 @@
-
-
 import About from "./about/About";
 
 import Header from "./header/Header";
@@ -10,12 +8,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-
-
-      <About />
-
       <Header />
 
+      <About />
     </div>
   );
 }
