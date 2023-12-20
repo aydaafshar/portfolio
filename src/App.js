@@ -5,6 +5,7 @@ import Header from "./header/Header";
 import Navbar from "./navbar/Navbar";
 import Portfolio from "./portfolio/Portfolio";
 import Services from "./services/Services";
+import Testemonials from "./testimonials/Testemonials";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <About />
       <Services />
       <Portfolio />
+      <Testemonials />
     </div>
   );
 }
