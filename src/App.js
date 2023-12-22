@@ -1,6 +1,7 @@
 import About from "./about/About";
 import Contact from "./contact/Contact";
 import FAQs from "./faqs/FAQs";
+import Footer from "./footer/Footer";
 
 import Header from "./header/Header";
 
@@ -21,6 +22,7 @@ function App() {
       <Testemonials />
       <FAQs />
       <Contact />
+      <Footer />
     </div>
   );
 }
