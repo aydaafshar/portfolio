@@ -1,4 +1,5 @@
 import About from "./about/About";
+import Contact from "./contact/Contact";
 import FAQs from "./faqs/FAQs";
 
 import Header from "./header/Header";
@@ -19,6 +20,7 @@ function App() {
       <Portfolio />
       <Testemonials />
       <FAQs />
+      <Contact />
     </div>
   );
 }
